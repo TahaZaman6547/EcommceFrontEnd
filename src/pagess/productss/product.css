@@ -1,0 +1,72 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #eb1bcf;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.add-to-cart-button {
+  background-color: #cf1212;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-to-cart-button:hover {
+  background-color: #c218a6;
+}
+
+.remove-from-cart-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  border-radius: 4px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.remove-from-cart-button:hover {
+  background-color: #d32f2f;
+}
+
+.CartLink {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #c00c0c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.CartLink:hover {
+  color: #c41010;
+}
