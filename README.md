@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 # ECOMMERCE-FRONTEND
 # ECOMMERCE-FRONTEND
 # ECOMMERCE-FRONTEND
+# FRONTEND-ECOMMERCE
